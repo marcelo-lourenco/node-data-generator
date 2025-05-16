@@ -1,0 +1,23 @@
+{
+  "name": "node-data-generator",
+  "version": "1.0.0",
+  "description": "Example of using Node Test Runner with the Gerador-BR data generator",
+  "type":"module",
+  "scripts": {
+    "test": "node --test test"
+  },
+  "devDependencies": {
+    "gerador-br": "^1.2.3"
+  },
+  "keywords": [
+    "node",
+    "node test runner",
+    "gerador-br",
+    "data generator",
+    "test automation",
+    "test",
+    "data"
+  ],
+  "author": "Marcelo Lourenço <qabi.dev@gmail.com>",
+  "license": "MIT"
+}

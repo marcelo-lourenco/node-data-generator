@@ -4,6 +4,8 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  schedule:
+    - cron: '0 */12 * * *'  # Executar a cada 12 horas
 jobs:
   build:
     runs-on: ubuntu-latest
